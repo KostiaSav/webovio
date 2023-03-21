@@ -1,0 +1,26 @@
+.brands {
+    background: white;
+    position: absolute;
+    max-width: 1275px;
+    width: 100%;
+    right: 0;
+    bottom: -115px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 50px 50px 100px 0px #00000025;
+    padding: 57px 65px;
+    @media screen and (max-width: 1024px) {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    @media screen and (max-width: 475px) {
+        flex-direction: column;
+        align-content: center;
+        gap: 35px;
+    }
+}
+
+.brands__wrapper {
+    position: relative;
+}

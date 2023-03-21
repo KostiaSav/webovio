@@ -1,0 +1,54 @@
+.hero-wrapper {
+    background-image: url('../img/hero.jpg');
+    color: var(--light-color);
+    height: 811px;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+    h1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 74px;
+        max-width: 614px;
+    }
+
+    h2 {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 580px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        font-weight: 700;
+        color: #FFD723;
+    }
+
+    @media screen and (max-width: 640px) {
+        h1 {
+            font-size: 45px;
+            line-height: 59px;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        h1 {
+            font-size: 35px;
+            line-height: 49px;
+        }
+    }
+}
